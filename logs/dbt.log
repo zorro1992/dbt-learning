@@ -1,0 +1,19 @@
+
+
+============================== 2022-02-16 21:32:52.332651 | 1e7318a4-c437-4577-9661-ebd1f2246c42 ==============================
+21:32:52.332651 [info ] [MainThread]: Running with dbt=1.0.1
+21:32:52.332943 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='/Users/raghunandanask/.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, project_name='customer-insight', skip_profile_setup=False, defer=None, state=None, cls=<class 'dbt.task.init.InitTask'>, which='init', rpc_method=None)
+21:32:52.333089 [debug] [MainThread]: Tracking: tracking
+21:32:52.343587 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10846ce20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10846c700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10846c490>]}
+21:32:52.344343 [info ] [MainThread]: Creating dbt configuration folder at /Users/raghunandanask/.dbt
+21:32:52.348428 [debug] [MainThread]: Starter project path: /Users/raghunandanask/Desktop/github-repo/dbt-learning/venv/lib/python3.10/site-packages/dbt/include/starter_project
+21:33:16.212356 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1083ff490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1083ff820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1083ff760>]}
+
+
+============================== 2022-02-16 21:33:21.223531 | 7ac6ae97-1515-4e9c-8e84-d3918e80bf56 ==============================
+21:33:21.223531 [info ] [MainThread]: Running with dbt=1.0.1
+21:33:21.223805 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='/Users/raghunandanask/.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, project_name='customer-insight', skip_profile_setup=False, defer=None, state=None, cls=<class 'dbt.task.init.InitTask'>, which='init', rpc_method=None)
+21:33:21.223949 [debug] [MainThread]: Tracking: tracking
+21:33:21.231378 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10472a350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1047284c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104728580>]}
+21:33:21.232246 [info ] [MainThread]: A project called customer-insight already exists here.
+21:33:21.232518 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1047294e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104728c40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104729810>]}
